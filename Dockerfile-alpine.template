@@ -38,7 +38,7 @@ RUN set -ex; \
     ; \
     bench get-app https://github.com/britlog/erpnext_france; \
     bench get-app https://github.com/DOKOS-IO/mautic; \
-    bench get-app https://github.com/Monogramm/erpnext_autoinstall
+    bench get-app --branch develop https://github.com/Monogramm/erpnext_autoinstall
 
 VOLUME \
     /home/$FRAPPE_USER/frappe-bench/apps/erpnext_france/erpnext_france/public \
